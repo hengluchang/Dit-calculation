@@ -5,7 +5,7 @@ Calculating interface state density (Dit) using conductance method in python.
 Python 3.5 and Anaconda (using Matplotlib, Numpy and pandas only)
 
 ## How to run
-- Download this repository
+- Download this repository (a python executable script and an example.txt file)
 ```
 $ git clone https://github.com/hengluchang/Dit-calculation.git
 ```
