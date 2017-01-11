@@ -1,5 +1,5 @@
 # Dit-calculation
-Calculating Dit using conductance method in python. 
+Calculating interface state density (Dit) using conductance method in python. 
 
 # Pre-req
 Python 3.5 and Anaconda (using Matplotlib and pandas only)
