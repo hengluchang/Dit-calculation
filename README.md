@@ -1,7 +1,7 @@
 # Dit-calculation
 Calculating interface state density (Dit) using conductance method in python. 
 
-# Pre-req
+# Software requirments
 Python 3.5 and Anaconda (using Matplotlib and pandas only)
 
 # How to run
@@ -17,5 +17,5 @@ $ python Dit_condutance_method.py
 
 
 # References
-[Fundamentals of CV measurements](http://www.scientific-devices.com.au/pdfs/WeTransfer-NZvJB6Cw/Capacitance/Fundamentals%20of%20CV%20Measurement.pdf): Semiconductor capacitor physics, C-V measurement setup and challenges written by staff from Keithley Instruments. 
-Chapter 6.3.2 Conductance, Semiconductor Material and Device Characterization, 3rd Edition
+- [Fundamentals of CV measurements](http://www.scientific-devices.com.au/pdfs/WeTransfer-NZvJB6Cw/Capacitance/Fundamentals%20of%20CV%20Measurement.pdf): Semiconductor capacitor physics, C-V measurement setup and challenges written by staff from Keithley Instruments. 
+- Chapter 6.3.2 Conductance, Semiconductor Material and Device Characterization, 3rd Edition. 
