@@ -4,6 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 import math
+import sys
 
 def plotCV(raw_df, name):
     pivot_df = raw_df.pivot(index='VBias', columns='Freq', values='C')
@@ -71,7 +72,7 @@ def plotDit_w(raw_df,r,name):
     return cox
 
 def main():
-    raw_df = pd.read_csv('example.txt', sep='\t')  # Specifiy your frequency sweep Cm-Gm file (.txt) here
+    raw_df = pd.read_csv(sys.argv[0], sep='\t')  # sys.argv[0] is your your frequency sweep Cm-Gm file path
     name = input('Enter the sample number:')
     r = float(input('Enter the radius of the MOS device(in um):'))*1e-4  #change unit to cm
     d = float(input('Enter the total thickness of the MOS device(in nm):'))*1e-7  #change unit to cm
