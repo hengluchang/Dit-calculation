@@ -10,9 +10,9 @@ Python 3.5 and Anaconda (using Matplotlib, Numpy and pandas only)
 $ git clone https://github.com/hengluchang/Dit-calculation.git
 ```
 
-- Run Dit_conductance_method.py. This will create four .png files (C-V, G-V, Gp/w-w, Dit-V) and a Dit-V.txt file. 
+- Run Dit_conductance_method.py using example.txt. This will create four .png files (C-V, G-V, Gp/w-w, Dit-V) and a Dit-V.txt file. 
 ```
-$ python Dit_condutance_method.py
+$ python Dit_condutance_method.py example.txt
 ```
 
 
